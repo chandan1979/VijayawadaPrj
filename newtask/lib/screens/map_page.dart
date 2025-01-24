@@ -40,7 +40,7 @@ class _MapScreenState extends State<MapScreen> {
   bool _loading = true;
   final Set<Marker> markers = {};
   final String _googleApiKey =
-      "AIzaSyAXWDIjZD5014ibmxgiIxBDq-CNrs3Z56c"; // Replace with your API key.
+      ""; // Replace with your API key.
 
   Future<void> _getCurrentLocation() async {
     bool serviceEnabled;

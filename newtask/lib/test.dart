@@ -74,7 +74,7 @@ class _MapScreenState extends State<MapScreen> {
     "Cycling": "assets/images/Cycling.png",
     "Walking": "assets/images/Walking.png",
   };
-  final String _googleApiKey = "AIzaSyAXWDIjZD5014ibmxgiIxBDq-CNrs3Z56c";
+  final String _googleApiKey = "";
 
   Future<BitmapDescriptor> getCustomMarkerIcon(String category) async {
     String assetPath = categoryLogos[category] ?? 'assets/images/default.png';
